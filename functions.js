@@ -7,3 +7,13 @@ const nuggeizer = (animal) => {
 }
 
 console.log(nuggeizer('chicken'));
+
+
+dogBreed = (dogBreed) =>{
+    const output = `My favorite dog breed is ${dogBreed}`;
+    return output;
+
+}
+
+console.log(dogBreed('lab'));
+console.log(dogBreed('monkey'));
