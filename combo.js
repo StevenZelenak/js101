@@ -1,18 +1,20 @@
 console.log("COMBO");
 
+
+// Check whether a number is even or odd
 const evenOdd = (number) => {
 
     if(number % 2 === 0){
-        return "The number is even.";
+        return "Even";
     }else {
-        return "The number is odd";
+        return "Odd";
     }
 }
 
 console.log(evenOdd(2));
 console.log(evenOdd(3));
 
-
+// turn a number into its opposite
 const oppNumber = (number) =>{
  
     if(number > 0){
@@ -30,22 +32,27 @@ console.log(oppNumber(2));
 console.log(oppNumber(-3));
 console.log(oppNumber(0));
 
-
+// check if a number is the same backwards as forward
 const palindrome = (word) =>{
+
+    word = word.toLowerCase();
 
     if(word === word.split('').reverse().join(''))
     {
-        return "The word is a palindrome";
+        return true;
     }
     else{
-        return "The word is not a palindrome";
+        return false;
     }
 }
 
 console.log(palindrome('dog'));
 console.log(palindrome('anna'));
+console.log(palindrome('Anna'));
+palindrome('cat');
+console.log(palindrome);
 
-
+// check whether the animal is a alligator or not
 const animalEcounter = (animal) =>{
 
     if(animal === 'alligator'){
