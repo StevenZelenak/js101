@@ -49,8 +49,8 @@ const palindrome = (word) =>{
 console.log(palindrome('dog'));
 console.log(palindrome('anna'));
 console.log(palindrome('Anna'));
-palindrome('cat');
-console.log(palindrome);
+
+
 
 // check whether the animal is a alligator or not
 const animalEcounter = (animal) =>{
